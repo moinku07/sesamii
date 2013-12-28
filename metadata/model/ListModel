@@ -1,0 +1,334 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "listmodel",
+        "designer|userClassName": "ListModel"
+    },
+    "designerId": "6f37ab04-f9ab-466f-8454-874725478412",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "address"
+            },
+            "designerId": "fa1bd582-ae57-4267-855d-6d8b5567b205"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "avg_age"
+            },
+            "designerId": "95235f8f-417f-4213-9029-5495474389e7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "avg_female"
+            },
+            "designerId": "8efd28c3-6c69-4d20-955e-0559b35cad22"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "banner"
+            },
+            "designerId": "be981d03-fdc2-4dbb-a3e7-ebe938970ec1"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "capacity"
+            },
+            "designerId": "a69ec01b-29c7-49c0-8ed9-7f98d3b58f1f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cost_rating",
+                "type": "int"
+            },
+            "designerId": "3bd9ea94-b5fe-40ed-9449-dd2ffc9c44e5"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "cover_charge"
+            },
+            "designerId": "3bf92c6a-309c-4e6a-80df-f42d8b9cd632"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "created",
+                "type": "date"
+            },
+            "designerId": "3bf275b6-7c5b-484f-af72-f95899cb0543"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "dancing",
+                "type": "boolean"
+            },
+            "designerId": "206050b9-ace7-4bec-849d-6f3f9fdd781a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "deals",
+                "type": null
+            },
+            "designerId": "7a736bc7-e621-493f-b0e4-258965fe3db3"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "description",
+                "type": null
+            },
+            "designerId": "4aa9e47a-65ed-4e82-9877-1b2824862cf0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": null
+            },
+            "designerId": "ccac6734-417e-4f98-a1fa-c5f9b33b0c93"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "latitude",
+                "type": null
+            },
+            "designerId": "cd0b54e8-8fbd-47bb-975c-81f40c8c8564"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "line_estimate",
+                "type": null
+            },
+            "designerId": "232c664a-b976-49b4-a890-714cd409cca0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "longitude",
+                "type": null
+            },
+            "designerId": "f0e9c20f-470f-4890-8f87-e10ffacb2be2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "music_tagline",
+                "type": null
+            },
+            "designerId": "8b1a4609-c5d1-4ea7-adbb-f821a87c14aa"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "music_type",
+                "type": null
+            },
+            "designerId": "dcf0231f-a1c6-401d-a4f5-0c98f00cd402"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "neighborhood",
+                "type": null
+            },
+            "designerId": "10f47746-b6f4-4558-a62c-6756a6a09efe"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "openings",
+                "type": null
+            },
+            "designerId": "092ae946-1165-46c4-be2b-d741d8929603"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "phone",
+                "type": null
+            },
+            "designerId": "8f6a9d72-4caf-47d1-b1cb-79cacfcc68b2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "thumbnail",
+                "type": null
+            },
+            "designerId": "1130544f-0bfa-4613-8107-b98b1fc26099"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "updated",
+                "type": null
+            },
+            "designerId": "41c09156-2b5f-4dd1-bb79-396cb734cfd8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "venue_name",
+                "type": null
+            },
+            "designerId": "e0308567-c716-4e42-aefa-c6c4ee3f0146"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "venue_type",
+                "type": null
+            },
+            "designerId": "294ef751-d1db-42d3-8080-3edd3f844cdf"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "website",
+                "type": null
+            },
+            "designerId": "65cc919c-bf2f-4516-bc20-a92889fcde1f"
+        }
+    ]
+}

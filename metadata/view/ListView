@@ -1,0 +1,31 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "listview",
+        "designer|userClassName": "ListView",
+        "store": "Liststore"
+    },
+    "designerId": "746f07f8-4c6d-40f4-88dc-577c46b46020",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "itemTpl",
+                "implHandler": [
+                    "<div>{venue_name} / {neighborhood}</div>"
+                ]
+            },
+            "designerId": "4e3e60db-70b2-47c7-b913-23818d59cbfc"
+        }
+    ]
+}

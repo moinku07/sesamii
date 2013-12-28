@@ -1,0 +1,54 @@
+{
+    "name": "sesamii",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.1.45",
+            "frameworkVersion": "2.3.0.328"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "urlPrefix": "",
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "3.0.1",
+    "xdsBuild": 1343,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "touch23",
+    "viewOrderMap": {
+        "view": [
+            "efa15251-84ca-4c32-876a-28ab936d2849",
+            "746f07f8-4c6d-40f4-88dc-577c46b46020"
+        ],
+        "store": [
+            "bf5e05c5-cb8d-4d9e-8b93-a514a4134c0c",
+            "829d1d14-ea2c-4149-8ec3-22ecb5ae24e1"
+        ],
+        "controller": [],
+        "model": [
+            "6f37ab04-f9ab-466f-8454-874725478412"
+        ],
+        "resource": [
+            "eb535d71-fbf9-4811-a3dc-4d94e8fde85f",
+            "8b184424-456a-4ee0-b023-1eb7c34fec24"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

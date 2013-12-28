@@ -1,0 +1,42 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "autoSync": true,
+        "designer|userAlias": "liststore",
+        "designer|userClassName": "Liststore",
+        "model": "ListModel",
+        "storeId": "Liststore"
+    },
+    "designerId": "829d1d14-ea2c-4149-8ec3-22ecb5ae24e1",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://sesamii-api.tk/api/venues/"
+            },
+            "designerId": "387222f8-ea79-44e0-8dee-cd335a0ac1a7",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "0fc2acb0-c406-4ae6-acb4-926d21632064"
+                }
+            ]
+        }
+    ]
+}
