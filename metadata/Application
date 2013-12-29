@@ -6,17 +6,21 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "ListController"
+        ],
         "models": [
             "ListModel"
         ],
         "name": "Sesamii",
         "stores": [
-            "ListpStore",
             "Liststore"
         ],
         "views": [
             "MasterDetailsView",
-            "ListView"
+            "ListView",
+            "DetailsView",
+            "MainView"
         ]
     },
     "designerId": "application"

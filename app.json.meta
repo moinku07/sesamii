@@ -1,1 +1,1 @@
-{"_comment":"Please don't edit. This is Architect data.","name":"Sesamii","css":[],"js":[],"resources":[],"classpath":null,"requires":[]}
+{"_comment":"Please don't edit. This is Architect data.","name":"Sesamii","css":[{"path":"sdk/resources/css/app.css"}],"js":[{"path":"sdk/functions.js"}],"resources":[],"classpath":"${app.dir}/app,${app.dir}/sdk/","requires":[]}

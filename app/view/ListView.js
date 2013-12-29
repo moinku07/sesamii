@@ -18,13 +18,33 @@ Ext.define('Sesamii.view.ListView', {
     alias: 'widget.listview',
 
     requires: [
-        'Ext.XTemplate'
+        'Ext.XTemplate',
+        'Ext.Toolbar'
     ],
 
     config: {
+        cls: 'listview',
         store: 'Liststore',
+        scrollable: {
+            indicators: false
+        },
         itemTpl: [
-            '<div>{venue_name} / {neighborhood}</div>'
+            '<div class="listview-container">',
+            '    <div class="image"><img src="{thumbnail}" /></div>',
+            '    <div class="text">',
+            '        <p class="header">{venue_name} / <span>{neighborhood}<span></p>',
+            '            <p><tpl if="cover_charge">${cover_charge} cover<tpl else>No cover</tpl>&nbsp;&nbsp;|&nbsp;&nbsp;$$$$</p>',
+            '                <div class="line line0"><p>No line</p></div>',
+            '            <div class="capacity capacity0"><p>10% Capacity</p></div>',
+            '            {[checkDeals(values.deals)]}',
+            '            </div>',
+            '        </div>'
+        ],
+        items: [
+            {
+                xtype: 'toolbar',
+                docked: 'top'
+            }
         ]
     }
 

@@ -641,7 +641,7 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.viewport.WP"
   ],
   "Sesamii.model.ListModel": [],
-  "Sesamii.store.ListStore": [],
+  "Sesamii.store.Liststore": [],
   "Sesamii.view.ListView": [],
   "Sesamii.view.Main": [],
   "Sesamii.view.MasterDetailsView": []
@@ -1366,7 +1366,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Sesamii.model.ListModel": [
     "model.listmodel"
   ],
-  "Sesamii.store.ListStore": [],
+  "Sesamii.store.Liststore": [
+    "store.liststore"
+  ],
   "Sesamii.view.ListView": [
     "widget.listview"
   ],

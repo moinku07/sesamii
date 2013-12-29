@@ -1,0 +1,119 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "cls": [
+            "detailsview"
+        ],
+        "designer|userAlias": "detailsview",
+        "designer|userClassName": "DetailsView",
+        "layout": "vbox"
+    },
+    "designerId": "87953dc4-3e92-4c07-ae1c-815301ca1314",
+    "cn": [
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|pack": "end",
+                "docked": "top",
+                "scrollable": [
+                    "{\r",
+                    "    direction:'vertical',\r",
+                    "    indicators:false\r",
+                    "}"
+                ]
+            },
+            "configAlternates": {
+                "scrollable": "object"
+            },
+            "designerId": "675fa98e-6f68-438b-94c2-75a105f57bd6",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "detailsclose",
+                        "text": "Close"
+                    },
+                    "designerId": "afe8ba7c-9d41-4123-b71e-05b4fef626ba",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "name",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "details1"
+                ],
+                "html": null,
+                "id": "details1"
+            },
+            "designerId": "de14c588-20c3-4fa5-b036-72750e4992f7",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "tpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "tpl",
+                        "implHandler": [
+                            "<div>\r",
+                            "    <img src=\"{banner}\" width=\"100%\" height=\"95px\" />\r",
+                            "    <img class=\"venue-type\" src=\"sdk/resources/images/venue_types/barB-banner.png\" />\r",
+                            "    <div class=\"opening-description\">\r",
+                            "        <p class=\"time\">Open Sun - Wed 5P - 12A, Th - Sat 9P - 2A</p><p class=\"description\">{description}</p>\r",
+                            "        {[getMusictype(values.music_type)]}\r",
+                            "    </div>\r",
+                            "</div>"
+                        ]
+                    },
+                    "designerId": "49378a7d-bd24-42df-911e-1cc221fb5ee2"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "details2"
+                ],
+                "html": "<div class=\"left\"><div class=\"line line0\"><p>No line</p></div><div class=\"capacity capacity0\"><p>10% Capacity</p></div></div> <div class=\"right\"><div class=\"male-female\"><p class=\"female\">48%&nbsp;&nbsp;</p><p class=\"female\">52%</p></div></div>",
+                "id": "details2"
+            },
+            "designerId": "8b3a5419-0b3e-4342-a114-ff49ddff6db6"
+        }
+    ]
+}

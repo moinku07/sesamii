@@ -30,7 +30,7 @@ Ext.define('Sesamii.store.Liststore', {
         storeId: 'Liststore',
         proxy: {
             type: 'ajax',
-            url: 'http://sesamii-api.tk/api/venues/',
+            url: 'api/venues/',
             reader: {
                 type: 'json'
             }

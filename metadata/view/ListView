@@ -6,11 +6,27 @@
     },
     "codeClass": null,
     "userConfig": {
+        "cls": [
+            "listview"
+        ],
         "designer|userAlias": "listview",
         "designer|userClassName": "ListView",
+        "scrollable": [
+            "{indicators:false}"
+        ],
         "store": "Liststore"
     },
+    "configAlternates": {
+        "scrollable": "object"
+    },
     "designerId": "746f07f8-4c6d-40f4-88dc-577c46b46020",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "scrollable",
+            "type": "string"
+        }
+    ],
     "cn": [
         {
             "type": "Ext.XTemplate",
@@ -22,10 +38,31 @@
             "userConfig": {
                 "designer|displayName": "itemTpl",
                 "implHandler": [
-                    "<div>{venue_name} / {neighborhood}</div>"
+                    "<div class=\"listview-container\">\r",
+                    "    <div class=\"image\"><img src=\"{thumbnail}\" /></div>\r",
+                    "    <div class=\"text\">\r",
+                    "        <p class=\"header\">{venue_name} / <span>{neighborhood}<span></p>\r",
+                    "            <p><tpl if=\"cover_charge\">${cover_charge} cover<tpl else>No cover</tpl>&nbsp;&nbsp;|&nbsp;&nbsp;$$$$</p>\r",
+                    "                <div class=\"line line0\"><p>No line</p></div>\r",
+                    "            <div class=\"capacity capacity0\"><p>10% Capacity</p></div>\r",
+                    "            {[checkDeals(values.deals)]}\r",
+                    "            </div>\r",
+                    "        </div>"
                 ]
             },
             "designerId": "4e3e60db-70b2-47c7-b913-23818d59cbfc"
+        },
+        {
+            "type": "Ext.Toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top"
+            },
+            "designerId": "94216c6d-f09d-4096-b0b2-694778fcde30"
         }
     ]
 }

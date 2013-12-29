@@ -23,7 +23,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "http://sesamii-api.tk/api/venues/"
+                "url": "api/venues/"
             },
             "designerId": "387222f8-ea79-44e0-8dee-cd335a0ac1a7",
             "cn": [

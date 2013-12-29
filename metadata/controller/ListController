@@ -1,0 +1,162 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "listcontroller",
+        "designer|userClassName": "ListController"
+    },
+    "designerId": "5868ee3c-77c4-4318-9cbc-4d360b80f3a6",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "listview",
+                "selector": "listview"
+            },
+            "designerId": "471d6237-0e38-4d22-a792-208cf895de4d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "listview",
+                "designer|targetType": "Ext.dataview.List",
+                "fn": "onListItemTap",
+                "implHandler": [
+                    "var mainview = this.getMainview(),\r",
+                    "    detailsview = this.getDetailsview(),\r",
+                    "    detailstoolbar = this.getDetailstoolbar(),\r",
+                    "    details1 = this.getDetails1(),\r",
+                    "    data =record.data;\r",
+                    "\r",
+                    "console.log(data);\r",
+                    "detailstoolbar.setTitle(data.venue_name);\r",
+                    "details1.setData(data);\r",
+                    "mainview.getLayout().setAnimation({\r",
+                    "    type:'slide',\r",
+                    "    direction:'left'\r",
+                    "});\r",
+                    "mainview.setActiveItem(detailsview);\r",
+                    "dataview.deselectAll();"
+                ],
+                "name": "itemtap"
+            },
+            "designerId": "f0b1645d-f852-457a-9a09-7886a6fe851b"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "detailsview",
+                "selector": "detailsview",
+                "xtype": null
+            },
+            "designerId": "bd94db24-6d63-4253-9a5f-57152ad8254f"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "masterdetailsview",
+                "selector": "masterdetailsview"
+            },
+            "designerId": "3081ddcf-4328-49fe-a17a-ac40a8cc1cb5"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainview",
+                "selector": "mainview"
+            },
+            "designerId": "c7b9139b-b531-495e-bc5c-f1540f154b12"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "detailstoolbar",
+                "selector": "detailsview toolbar"
+            },
+            "designerId": "955ce89f-db58-4d46-b168-52b07e117972"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "detailsclose",
+                "selector": "button[name=detailsclose]"
+            },
+            "designerId": "e3c88ea7-4774-4d30-8beb-b9ac530a4ed0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "button[name=detailsclose]",
+                "designer|targetType": "Ext.Button",
+                "fn": "onDetailsCloseButtonTap",
+                "implHandler": [
+                    "var mainview = this.getMainview();\r",
+                    "mainview.getLayout().setAnimation({\r",
+                    "    type:'slide',\r",
+                    "    direction:'right'\r",
+                    "});\r",
+                    "mainview.setActiveItem(0);"
+                ],
+                "name": "tap"
+            },
+            "designerId": "c10b2f43-51ad-4523-b84b-13dbe61f97fc"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "details1",
+                "selector": "detailsview #details1"
+            },
+            "designerId": "bade8fc6-dd07-4522-baca-0e8a97a9f0b9"
+        }
+    ]
+}

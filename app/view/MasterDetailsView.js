@@ -17,7 +17,17 @@ Ext.define('Sesamii.view.MasterDetailsView', {
     extend: 'Ext.navigation.View',
     alias: 'widget.masterdetailsview',
 
+    requires: [
+        'Sesamii.view.ListView',
+        'Ext.dataview.List'
+    ],
+
     config: {
+        items: [
+            {
+                xtype: 'listview'
+            }
+        ]
     }
 
 });

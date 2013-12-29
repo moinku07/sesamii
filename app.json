@@ -15,6 +15,9 @@
          "path": "app.js",
          "bundle": true,
          "update": "delta"
+      },
+      {
+         "path": "sdk/functions.js"
       }
    ],
    "css": [
@@ -26,8 +29,11 @@
             "desktop"
          ],
          "theme": "Default",
-         "path": "theme/sencha-touch-8b184424-456a-4ee0-b023-1eb7c34fec24.css",
+         "path": "resources/css/sencha-touch.css",
          "_architect_active_theme": true
+      },
+      {
+         "path": "sdk/resources/css/app.css"
       }
    ],
    "appCache": {
@@ -49,5 +55,6 @@
    ],
    "archivePath": "archive",
    "requires": [],
-   "id": "bf695a0c-bdb4-421f-ba43-2cf26c667e22"
+   "id": "bf695a0c-bdb4-421f-ba43-2cf26c667e22",
+   "classpath": "${app.dir}/app,${app.dir}/sdk/"
 }
